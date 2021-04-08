@@ -1,0 +1,55 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  background-color: #778899;
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+}
+
+#welcome {
+  font-size: 10vmin;
+  margin-left: 100px;
+  color: black;
+}
+
+#instructions {
+  text-align: justify;
+  margin-left: 30vmin;
+  margin-right: 30vmin;
+  font-style: oblique;
+  font-size: 9vmin;
+  color: white;
+}
+
+#fortune-input {
+  background-color: #ADD8E6;
+  border-style: double;
+  margin-top: 100px;
+  margin-left: 40%;
+  width: 25%;
+}
+
+#fortune-button {
+  width: 100px;
+  margin-left: 50%;
+  margin-top: 5%;
+  color: white;
+  background-color: black;
+  font-family: serif;
+  cursor: pointer;
+}
+
+
+
+.alteredAnswer {
+  font-weight: 900;
+  font-style: oblique;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+}
